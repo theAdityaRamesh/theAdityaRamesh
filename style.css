@@ -14,6 +14,7 @@ html{
 
 a{
     text-decoration: none;
+    color: #4B0082; 
 }
 
 
@@ -60,19 +61,19 @@ a{
   width: 400vw;
 }
 .one {
-    background: url("images/data.jpg");
+    background: #04040B;
     background-size: cover;
 }
 .two {
-  background: url("images/Cosmonaut.png") no-repeat center;
+  background: #F80682;
   background-size: cover;
 }
 .three {
-    background: url("images/jp.jpg") no-repeat center;
+    background: #0605F7;
     background-size: cover;
 }
 .four {
-    background: url("images/pink.jpg") no-repeat center;
+    background: #07F984;
     background-size: cover;
 }
 
