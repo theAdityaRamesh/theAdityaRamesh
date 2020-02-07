@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
 :root {
     --main-blue: rgba(30, 11, 127, 1);
     --main-red: rgba(239, 35, 46, 1);
@@ -90,7 +93,7 @@ a{
   width: 400vw;
 }
 .one {
-    background: #0E0B16;
+    background: url("images/jel.jpg");
     background-size: cover;
 }
 .two {
@@ -133,7 +136,45 @@ a{
 /* Hero  */
 
 .hero-text{
-    color: #0E0B16;
+    padding-top: 20vh;
+    padding-left: 12vw ;
+    height: 50vh;
+    align-content: center;
+    
+}
+
+.sub-text{
+    color: var(--main-green);
+    font-size: 1.5rem;
+} 
+
+.main-text{
+    color: var(--main-white);
+    font-size: 4rem;
+}
+
+.main-para{
+    color: var(--main-green);
+    font-size: 2rem;
+    width: 50%;
+}
+
+.hero-button {
+    padding-top: 1vh ;
+    padding-left:12% ;
+}
+
+.hero-button button{
+
+    font-family: 'Rubik', sans-serif;
+    border-style: 0.2rem ;
+    font-weight: 1000;
+    cursor: pointer;
+    background-color: white;
+    opacity: 0.5;
+    color: var(--main-blue);
+    font-size: 2.5rem;
+    padding: 0.5rem 2.5rem ;
 }
 
 
@@ -162,4 +203,34 @@ a{
     .logo h1{
         font-size: 1.75rem;
     }
+
+    /* hero */
+
+
+    .hero-text{
+        padding-top: 20vh;
+        padding-left: 15vw ;
+    }
+
+
+    .sub-text{
+        font-size: 1.2rem;
+    } 
+    
+    .main-text{
+        font-size: 3rem;
+    }
+
+    .main-para{
+        color: var(--main-green);
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    .hero-button {
+        padding-top: 10vh ;
+        padding-left:15% ;
+    }
+    
+
 }
