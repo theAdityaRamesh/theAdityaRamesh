@@ -9,18 +9,19 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <title>
     AR
   </title>
 </head>
 
 <body>
-  <div class="pc-view">
+  <div id="myDIV" class="pc-view">
 
     <header class="sidebar">
-      <div class="logo">
+      <div class="prelogo">  
         <h1>AR</h1>
-      </div>
+     </div>
       <ul class="nav-list">
         <li class="nav-item">
           <a href="#home" class="nav-link">
@@ -29,21 +30,21 @@
         </li>
         <li class="nav-item">
           <a href="#about" class="nav-link">
-            <i class="far fa-grin-tongue-wink"></i>
+            <i class="fas fa-info-circle"></i>
           </a>
         </li>
         <li class="nav-item">
           <a href="#work" class="nav-link">
-            <i class="fas fa-project-diagram"></i></a>
+            <i class="fas fa-code"></i></a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a href="#contact" class="nav-link">
             <i class="fa fa-at"></i></a>
-        </li>
-        <li class="nav-item">
+        </li> -->
+        <!-- <li class="nav-item">
           <a href="adityaRamesh_CV_Jan_2020.pdf" target="_blank" class="nav-link">
             <i class="fa fa-file"></i></a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a href="https://www.instagram.com/aditya_ramesh18/" target="_blank" class="nav-link">
             <i class="fab fa-instagram"></i>
@@ -71,23 +72,30 @@
     </header>
     <div class="outer-wrapper">
       <div class="wrapper">
-        <div class="slide one" id="home"></div>
+        <div class="slide one" id="home">
+<!-- 
+          <div class="hero-text">
+            <div class="subtext">
+              <h1>
+                Hi, my name is 
+              </h1>
+            </div>
+            <div class="maintext">
+              <h1>
+                Aditya Ramesh
+              </h1>
+            </div>
+            <div class="mainpara">
+              I'm a third year undergrad at IIIT-Sri City and I also dabble in music, orgiami and calligraphy. Get to know me by scrolling right.
+            </div>
+          </div> -->
+
+        </div>
         <div class="slide two" id="about"></div>
         <div class="slide three" id="work"></div>
         <div class="slide four" id="contact"></div>
       </div>
     </div>
-  </div>
-  </div>
-
-  <div class="mobile-view">
-    <nav>
-      
-    </nav>
-    <div class="slide one" name="home" id="home"></div>
-    <div class="slide two" name="about" id="about"></div>
-    <div class="slide three" name="work" id="work"></div>
-    <div class="slide four" id="contact"></div>
   </div>
 <script src="app.js"></script>
 </body>
