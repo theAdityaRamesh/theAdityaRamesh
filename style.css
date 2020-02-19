@@ -23,7 +23,12 @@ a{
   text-decoration: none;
 }
 
+li{
+  list-style: none;
+}
+
 .one{
+  /* background: url("images/man.jpg") center no-repeat; */
   background-color: black;
   width: 100vw;
   height: 100vh;
@@ -61,7 +66,6 @@ justify-content: space-between;
 
 
 .main-menu li{
-  cursor: pointer;
   margin: 0 2rem;
   border: dashed;
   width: 120px;
@@ -69,6 +73,12 @@ justify-content: space-between;
   /* padding: 3px 3px; */
   font-size: 2rem;
   text-align: center;
+}
+
+.main-menu li:hover{
+  border: solid;
+  border-color: white ;
+  transition: 0.5s;
 }
 
 
@@ -91,6 +101,7 @@ justify-content: space-between;
 }
 
 
+
 .socials a{
   font-size: 2rem;
   color: white;
@@ -99,6 +110,8 @@ justify-content: space-between;
 
 @media only screen and (max-width: 756px) {
   
+
+
 
   .main-text{
     text-align: center;
