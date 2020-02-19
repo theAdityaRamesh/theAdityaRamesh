@@ -19,128 +19,31 @@
 }
 
 
-
-
-.one {
-  position: relative;
+.one{
+  background-color: black;
   width: 100vw;
   height: 100vh;
-  background: black;
-  background-size: cover;
-  background-position: center;
 }
 
-.main{
-  color: white;
-  position: absolute;
-  height: 80vh;
-  width: 80vw;  
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .main-text{
-  padding-bottom: 15px;
-  font-size: 4rem;
-  font-family: var(--headline-font);
+  color: white;
 }
 
 .main-sub-text{
-  font-size: 1.5rem;
-  padding-bottom: 10px;
-  font-family: var(--text-font);
-}
-
-
-.main-menu ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-
-.main-menu li{
-  list-style: none;
-  padding-right: 10%;
+  color: white;
 }
 
 .main-menu a{
-  display: block;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-family: var(--sub-text-font);
   color: white;
-  background-color: transparent;
-  border: solid;
-  border-color: white;
-  padding: 2px 10px;
-}
-
-.main-menu a:hover{
-  background-color: white;
-  color: black;
-  transition: ease-out;
-}
-
-
-.socials{
-  padding-top: 50px;
-}
-
-.socials ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 20vw;
-  height: auto;
-}
-
-.socials li{
-  list-style:none ;
-  padding: 0 15px;
 }
 
 .socials a{
-  font-size: 2rem;
-  text-decoration: none;
   color: white;
 }
 
 
-
-/* @media only screen and (max-width: 756px) {
+@media only screen and (max-width: 756px) {
   
-  .main-text{
-    font-size: 3rem;
-  }
 
-  .main-sub-text{
-    font-size: 1rem;
-  }
-
-  .main-menu ul{
-    flex-direction: column;
-  }
-
-  .main-menu li{
-    padding: 10% 0;
-  }
-
-  .main-menu a{
-    width: 100px;
-  }
-
-  .main-menu{
-    top:0%;
-    left:0%;
-  }
-
-} */
+}
