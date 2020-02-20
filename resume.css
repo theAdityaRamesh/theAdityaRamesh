@@ -86,6 +86,7 @@
       font-family: var(--subheadline);
       font-weight: bold;
       font-size: 2.5rem;
+      text-align: center;
   }
 
 
@@ -106,16 +107,35 @@
 
 }
 
-  .para{
-      color: grey;
-      font-family: var(--para);
-      font-size: 2rem;  
-  }
+
 
   .intro{
     width: 40vw;
 
   }
+
+
+  .about-section{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .para{
+    color: grey;
+    font-family: var(--para);
+    font-size: 1.5rem;  
+    text-align: justify;
+    font-weight: 100;
+    padding: 1vh 2vw ;
+}
+
+
+.subheadline-icon{
+  text-align: center;
+  font-size: 8rem;
+  color: var(--main-green);
+}
 
   @media only screen and (max-width: 756px) {
     
@@ -127,5 +147,9 @@
         width: auto;
     }
 
+    .about-section{
+      flex-direction: column;
+    }
+  
 
   }
