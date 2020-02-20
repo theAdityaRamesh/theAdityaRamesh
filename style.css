@@ -67,7 +67,7 @@ justify-content: space-between;
 
 .main-menu li{
   margin: 0 3rem;
-  border: dashed;
+  border: solid;
   width: 120px;
   border-color: white;
   font-size: 2rem;
@@ -75,7 +75,7 @@ justify-content: space-between;
 }
 
 .main-menu li:hover{
-  border: solid;
+  border: dashed;
   border-color: white ;
   transition: 0.5s;
 }
