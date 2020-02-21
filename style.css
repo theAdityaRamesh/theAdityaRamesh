@@ -15,9 +15,7 @@
   --main-yellow: rgba(255, 184, 0, 1);
 
   --headline-font: 'Monoton', cursive;
-  /* --text-font: 'Gochi Hand', cursive; */
-  /* --sub-text-font:'Patrick Hand', cursive; */
-  --text-font:'Ubuntu Mono';
+  --text-font:'Delius';
 }
 
 
@@ -73,7 +71,7 @@ justify-content: space-between;
   border: solid;
   width: 120px;
   border-color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
