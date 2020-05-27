@@ -14,8 +14,10 @@
   --main-green: rgba(23, 190, 187, 1);
   --main-yellow: rgba(255, 184, 0, 1);
 
-  --headline-font: 'Monoton', cursive;
-  --text-font:'Delius';
+  
+  --headline-font: 'Allerta Stencil', sans-serif;
+  --text-font:'Chelsea Market', cursive;
+  
 }
 
 
@@ -28,7 +30,7 @@ li{
 }
 
 .one{
-  background: url("images/dark2.jpg") center no-repeat;
+  background: url("images/t1.jpg") center no-repeat;
   background-size: cover;
   /* background-color: black; */
   width: 100vw;
@@ -48,6 +50,7 @@ li{
   color: white;
   font-family: var(--headline-font);
   font-size: 4rem;
+  font-weight: 500;
 }
 
 .main-sub-text{
@@ -112,7 +115,9 @@ justify-content: space-between;
 @media only screen and (max-width: 756px) {
   
 
-
+  .one{
+    background-position: center;
+  }
 
   .main-text{
     text-align: center;
@@ -120,7 +125,7 @@ justify-content: space-between;
   }
 
   .main-sub-text{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
 
   .main-menu ul
@@ -129,7 +134,8 @@ justify-content: space-between;
   }
 
   .main-menu li{
-    margin: 0.7rem 0;
+    margin: 0.9rem 0;
+    font-size: 1.2rem;
   }
 
 }
